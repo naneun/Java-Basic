@@ -12,11 +12,21 @@
 - Code link (Version2): <https://github.com/naneun/Java-Practice/blob/main/src/1052%20-%202.java>
 > - 그리디, 비트연산
 - 큰 수 A+B (B5): <https://www.acmicpc.net/problem/10757>
-- Code link: <https://github.com/naneun/Java-Practice/blob/main/src/10757.java>
+- Code link (Version1): <https://github.com/naneun/Java-Practice/blob/main/src/10757.java>
+- Code link (Version2): <https://github.com/naneun/Java-Practice/blob/main/src/10757%20-%202.java>
 > - Arrays.fill(dest, val) - 배열 채우기
 > - System.arraycopy(src, srcPos, dest, destPos, length) - 배열 복사
+
+- StringBuffer
 > - new StringBuffer(str).reverse() - 문자열 역정렬
 > - String.toCharArray() - String -> Char 배열 변환
 > - List.stream()
     .map(Object::toString)
     .collect(Collectors.joining(str)) - List 요소들을 이어 붙여 문자열로 변환
+
+- StringBuilder
+> - StringBuilder sb = new StringBuilder() - StringBuilder 할당
+> - sb.append(Object) - 매개변수를 char[]로 변환하여 append
+> - sb.reverse() - char[] 을 역정렬
+
+- StringBuffer vs StringBuilder: <작성중>
