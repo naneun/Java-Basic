@@ -1,6 +1,24 @@
 # Java-Practice
 
 ## 쉬운 문제들로 자바에 익숙해지기
+- Input
+```c
+    Scanner sc = new Scanner(System.in);
+    String A = sc.next(); // 빈문자열, 개행 구분
+    String B = sc.nextLine(); // 개행 구분
+```
+
+```c
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    StringTokenizer st = new StringTokenizer(br.readLine()," ");
+
+    String n1 = st.nextToken();
+    String n2 = st.nextToken();
+```
+
+- Scanner, BufferReader, InputStreamReader, StringTokenizer <정리중>
+
+
 - 분산처리 (B3): <https://www.acmicpc.net/problem/1009>
 - Code link: <https://github.com/naneun/Java-Practice/blob/main/src/1009.java>
 > - 단순 규칙
