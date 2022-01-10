@@ -17,8 +17,8 @@
 >    String n1 = st.nextToken();
 >    String n2 = st.nextToken();
 >```
+- Scanner, BufferReader, InputStreamReader, StringTokenizer: <https://velog.io/@naneun/Java-IO-InputStream-OutputStream-Reader-Writer>
 ---
-### Scanner, BufferReader, InputStreamReader, StringTokenizer <작성중>
 
 ### 분산처리 (B3): <https://www.acmicpc.net/problem/1009>
 - Code link: <https://github.com/naneun/Java-Practice/blob/main/src/1009.java>
@@ -53,4 +53,4 @@
 > - sb.append(Object) - 매개변수를 char[]로 변환하여 append
 > - sb.reverse() - char[] 을 역정렬
 ---
-- StringBuffer vs StringBuilder: <작성중>
+- StringBuffer vs StringBuilder: <https://velog.io/@naneun/Java-StringBuffer-vs-StringBuilder>
