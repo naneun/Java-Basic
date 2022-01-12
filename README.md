@@ -1,14 +1,14 @@
 # Java-Basic
 ## W1
 - ### Input Style
-  - > #### Scanner
+    > #### Scanner
     >```java
     >    Scanner sc = new Scanner(System.in);
     >    String A = sc.next(); // 빈문자열, 개행 구분
     >    String B = sc.nextLine(); // 개행 구분
     >```
 
-  - > #### BufferdReader
+    > #### BufferdReader
     >```java
     >    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     >    StringTokenizer st = new StringTokenizer(br.readLine()," ");
@@ -67,7 +67,7 @@
   - [Code Link]()
     > - new StringBuilder(String str) ex). new StringBuilder(Integer.toString(num))
 ---
-- ### [longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/)
+- ### [longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/)  
   - [Code Link]()
     ```java
     // 문자열 길이를 기준으로 오름차 순 정렬
