@@ -9,7 +9,7 @@ public class RemoveDuplicatesfromSortedList {
         ListNode nxt = head.next;
         while (nxt != null) {
             if (cur.val != nxt.val) {
-                cur = cur.next;
+                cur = nxt;
             } else {
                 nxt = cur.next = nxt.next;
             }
