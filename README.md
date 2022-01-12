@@ -55,20 +55,20 @@
 ---
 ## W2
 - ### [reverse-integer](https://leetcode.com/problems/reverse-integer/)
-  - [Code Link]()
+  - [Code Link](https://github.com/naneun/Java-Basic/blob/main/src/W2/ReverseInteger.java)
     > - str.substring(beginIndex);
     > - str.substring(beginIndex, endIndex);
 ---
 - ### [remove-duplicates-from-sorted-list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
-  - [Code Link]()
+  - [Code Link](https://github.com/naneun/Java-Basic/blob/main/src/W2/RemoveDuplicatesfromSortedList.java)
     > - Set<E>, contains, add
 ---
 - ### [palindrome-number](https://leetcode.com/problems/palindrome-number/)
-  - [Code Link]()
+  - [Code Link](https://github.com/naneun/Java-Basic/blob/main/src/W2/PalindromeNumber.java)
     > - new StringBuilder(String str) ex). new StringBuilder(Integer.toString(num))
 ---
 - ### [longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/)  
-  - [Code Link]()
+  - [Code Link](https://github.com/naneun/Java-Basic/blob/main/src/W2/LongestCommonPrefix.java)
     ```java
     // 문자열 길이를 기준으로 오름차 순 정렬
     
