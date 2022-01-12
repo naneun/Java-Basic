@@ -65,7 +65,10 @@
 ---
 - ### [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
   - [Code Link](https://github.com/naneun/Java-Basic/blob/main/src/W2/PalindromeNumber.java)
-    > - new StringBuilder(String str) ex). new StringBuilder(Integer.toString(num))
+    > - new StringBuilder(String str)
+    >```java
+    >new StringBuilder(Integer.toString(num))
+    >```    
 ---
 - ### [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)  
   - [Code Link](https://github.com/naneun/Java-Basic/blob/main/src/W2/LongestCommonPrefix.java)
