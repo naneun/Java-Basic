@@ -63,6 +63,10 @@
   - [Code Link](https://github.com/naneun/Java-Basic/blob/main/src/W2/RemoveDuplicatesfromSortedList.java)
     > - LinkedList
 ---
+- ### [Remove Duplicates From an Unsorted Linked List](https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/)
+  - [Code Link](https://github.com/naneun/Java-Basic/blob/main/src/W2/RemoveDuplicatesFromanUnsortedLinkedList.java)
+    > - Set, add, contains
+---
 - ### [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
   - [Code Link](https://github.com/naneun/Java-Basic/blob/main/src/W2/PalindromeNumber.java)
     > - new StringBuilder(String str)
