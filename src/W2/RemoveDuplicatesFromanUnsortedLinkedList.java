@@ -6,26 +6,19 @@ import java.util.Set;
 public class RemoveDuplicatesFromanUnsortedLinkedList {
     public ListNode deleteDuplicates(ListNode head) {
         Set<Integer> st = new HashSet<>();
-        List<Integer> list = new ArrayList<>();
-        ListNode node = head;
-        while (node != null) {
-            if (!st.contains(node.val)) {
-                list.add(node.val);
-                st.add(node.val);
-            }
-            node = node.next;
+        if (head == null) {
+            return head;
         }
-        int len = list.size();
-        if (len == 0) {
-            return null;
-        }
-        ListNode[] nodes = new ListNode[len];
-        for (int idx = 0; idx < len; ++idx) {
-            nodes[idx] = new ListNode(list.get(idx));
-            if (idx > 0) {
-                nodes[idx - 1].next = nodes[idx];
+        ListNode cur = head;
+        st.add(cur.val);
+        while (cur.next != null) {
+            if (!st.contains(cur.next.val)) {
+                st.add(cur.next.val);
+                cur = cur.next;
+            } else {
+                cur.next = cur.next.next;
             }
         }
-        return nodes[0];
+        return head;
     }
 }
