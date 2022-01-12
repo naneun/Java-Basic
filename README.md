@@ -54,20 +54,20 @@
   - [StringBuffer vs StringBuilder](https://velog.io/@naneun/Java-StringBuffer-vs-StringBuilder)
 ---
 ## W2
-- ### [reverse-integer](https://leetcode.com/problems/reverse-integer/)
+- ### [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
   - [Code Link](https://github.com/naneun/Java-Basic/blob/main/src/W2/ReverseInteger.java)
     > - str.substring(beginIndex);
     > - str.substring(beginIndex, endIndex);
 ---
-- ### [remove-duplicates-from-sorted-list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+- ### [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
   - [Code Link](https://github.com/naneun/Java-Basic/blob/main/src/W2/RemoveDuplicatesfromSortedList.java)
-    > - Set<E>, contains, add
+    > - LinkedList
 ---
-- ### [palindrome-number](https://leetcode.com/problems/palindrome-number/)
+- ### [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
   - [Code Link](https://github.com/naneun/Java-Basic/blob/main/src/W2/PalindromeNumber.java)
     > - new StringBuilder(String str) ex). new StringBuilder(Integer.toString(num))
 ---
-- ### [longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/)  
+- ### [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)  
   - [Code Link](https://github.com/naneun/Java-Basic/blob/main/src/W2/LongestCommonPrefix.java)
     ```java
     // 문자열 길이를 기준으로 오름차 순 정렬
@@ -76,4 +76,7 @@
       return Integer.compare(s1.length(), s2.length());
     });
     ```
+- ### [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+  - [Code Link](https://github.com/naneun/Java-Basic/blob/main/src/W2/LinkedListCycle.java)
+    > - LinkedList
 ---
