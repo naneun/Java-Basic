@@ -1,6 +1,5 @@
-# Java-Practice
-
-## 쉬운 문제들로 자바에 익숙해지기
+# Java-Basic
+# W1
 ### Input Style
 >#### Scanner
 >```java
@@ -17,27 +16,27 @@
 >    String n1 = st.nextToken();
 >    String n2 = st.nextToken();
 >```
-- Scanner, BufferReader, InputStreamReader, StringTokenizer: <https://velog.io/@naneun/Java-IO-InputStream-OutputStream-Reader-Writer>
+- Scanner, BufferReader, InputStreamReader, StringTokenizer: [학습정리링크](https://velog.io/@naneun/Java-IO-InputStream-OutputStream-Reader-Writer)
 ---
 
-### 분산처리 (B3): <https://www.acmicpc.net/problem/1009>
-- Code link: <https://github.com/naneun/Java-Practice/blob/main/src/1009.java>
+### [분산처리 (B3)](https://www.acmicpc.net/problem/1009)
+- [Code Link](https://github.com/naneun/Java-Practice/blob/main/src/1009.java)
 > - 단순 규칙
 ---
-### 저항 (B2): <https://www.acmicpc.net/problem/1076>
-- Code link: <https://github.com/naneun/Java-Practice/blob/main/src/1076.java>
+### [저항 (B2)](https://www.acmicpc.net/problem/1076)
+- [Code Link](https://github.com/naneun/Java-Practice/blob/main/src/1076.java)
 > - Map 초기값 설정
 >  1. Map<String, Integer> mp = new HashMap<>() {{ put(key, value); }};
 >  2. Map<String, Integer> COLOR_MAP = Map.of(key1, val1, key2, val2, ...);
 ---
-### 물병 (S1): <https://www.acmicpc.net/problem/1052>
-- Code link (Version1): <https://github.com/naneun/Java-Practice/blob/main/src/1052.java>
-- Code link (Version2): <https://github.com/naneun/Java-Practice/blob/main/src/1052%20-%202.java>
+### [물병 (S1)](https://www.acmicpc.net/problem/1052)
+- [Code Link (Version1)](https://github.com/naneun/Java-Practice/blob/main/src/1052.java)
+- [Code Link (Version2)](https://github.com/naneun/Java-Practice/blob/main/src/1052%20-%202.java)
 > - 그리디, 비트연산
 ---
-### 큰 수 A+B (B5): <https://www.acmicpc.net/problem/10757>
-- Code link (Version1): <https://github.com/naneun/Java-Practice/blob/main/src/10757.java>
-- Code link (Version2): <https://github.com/naneun/Java-Practice/blob/main/src/10757%20-%202.java>
+### [큰 수 A+B (B5)](https://www.acmicpc.net/problem/10757)
+- [Code Link (Version1)](https://github.com/naneun/Java-Practice/blob/main/src/10757.java)
+- [Code Link (Version2)](https://github.com/naneun/Java-Practice/blob/main/src/10757%20-%202.java)
 > - Arrays.fill(dest, val) - 배열 채우기
 > - System.arraycopy(src, srcPos, dest, destPos, length) - 배열 복사
 ---
@@ -53,4 +52,29 @@
 > - sb.append(Object) - 매개변수를 char[]로 변환하여 append
 > - sb.reverse() - char[] 을 역정렬
 ---
-- StringBuffer vs StringBuilder: <https://velog.io/@naneun/Java-StringBuffer-vs-StringBuilder>
+- StringBuffer vs StringBuilder: [학습정리링크](https://velog.io/@naneun/Java-StringBuffer-vs-StringBuilder)
+---
+## W2
+
+### [reverse-integer](https://leetcode.com/problems/reverse-integer/)
+- [Code Link]()
+> - str.substring(beginIndex);
+> - str.substring(beginIndex, endIndex);
+---
+### [remove-duplicates-from-sorted-list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+- [Code Link]()
+> - Set<E>, contains, add
+---
+### [palindrome-number](https://leetcode.com/problems/palindrome-number/)
+- [Code Link]()
+> - new StringBuilder(String str) ex). new StringBuilder(Integer.toString(num))
+---
+### [longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/)
+- [Code Link]()
+```java
+// 문자열 길이를 기준으로 오름차 순 정렬
+Arrays.sort(strs, (s1, s2) -> {
+  return Integer.compare(s1.length(), s2.length());
+});
+```
+---
