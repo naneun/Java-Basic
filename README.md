@@ -76,13 +76,13 @@
 ---
 - ### [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)  
   - [Code Link](https://github.com/naneun/Java-Basic/blob/main/src/W2/LongestCommonPrefix.java)
-    ```java
-    // 문자열 길이를 기준으로 오름차 순 정렬
-    
-    Arrays.sort(strs, (s1, s2) -> {
-      return Integer.compare(s1.length(), s2.length());
-    });
-    ```
+    >```java
+    >// 문자열 길이를 기준으로 오름차 순 정렬
+    >
+    >Arrays.sort(strs, (s1, s2) -> {
+    >  return Integer.compare(s1.length(), s2.length());
+    >});
+    >```
 - ### [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
   - [Code Link](https://github.com/naneun/Java-Basic/blob/main/src/W2/LinkedListCycle.java)
     > - LinkedList
